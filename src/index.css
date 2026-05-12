@@ -8,6 +8,11 @@ body {
 
 .app {
   margin-top: 50px;
+  width: full;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .joke-container {
@@ -17,6 +22,7 @@ body {
   background-color: white;
   border-radius: 10px;
   display: inline-block;
+  width: 800px;
 }
 
 .fetch-button {
@@ -28,6 +34,7 @@ body {
   cursor: pointer;
   border-radius: 5px;
   margin-top: 20px;
+  width: fit-content;
 }
 
 .fetch-button:hover {
